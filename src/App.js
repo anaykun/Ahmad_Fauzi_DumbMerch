@@ -10,6 +10,8 @@ import CategoryStore from "./pages/CategoryStore";
 import EditCategory from "./pages/EditCategory";
 import ProductStore from "./pages/ProductStore";
 import EditProduct from "./pages/EditProduct";
+import UserComplain from "./pages/UserComplain";
+import AdminComplain from "./pages/AdminComplain";
 
 export default class App extends Component {
   render() {
@@ -25,6 +27,8 @@ export default class App extends Component {
         <Route exact path="/edit-category" element={<EditCategory />} />
         <Route exact path="/product" element={<ProductStore />} />
         <Route exact path="/edit-product" element={<EditProduct />} />
+        <Route exact path="/complain-user" element={<UserComplain />} />
+        <Route exact path="/complain-admin" element={<AdminComplain />} />
       </Routes>
     );
   }
