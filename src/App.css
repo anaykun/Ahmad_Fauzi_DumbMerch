@@ -1,0 +1,307 @@
+@font-face {
+  font-family: Avenir;
+  src: url(./fonts/AvenirLTStd-Black.otf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: AvenirBold;
+  src: url(./fonts/AvenirNextLTPro-Bold.otf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: AvenirRegular;
+  src: url(./fonts/AvenirNextLTPro-Regular.otf);
+  font-weight: 400;
+}
+
+body {
+  background-color: black !important;
+}
+
+.form-login {
+  margin-top: 100px;
+  display: flex !important;
+}
+
+.img-login {
+  margin-bottom: 35px;
+}
+
+.header-login {
+  margin-bottom: 8px;
+}
+
+.header-login > h1 {
+  font-family: Avenir;
+  font-size: 56px;
+  color: white;
+  margin-right: 93px;
+}
+
+.des-login {
+  width: 453px;
+  line-height: 25px;
+}
+
+.des-login > p {
+  font-family: AvenirRegular;
+  color: #6a6a6a;
+  font-size: 18px;
+  margin-bottom: 84px;
+}
+
+.des-login span {
+  font-family: AvenirBold;
+  color: #6a6a6a;
+}
+
+.formLogin {
+  width: 416px;
+  height: 366px;
+  box-sizing: border-box;
+  background-color: #181818;
+  padding: 33px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.formRegister {
+  width: 416px;
+  height: 443px;
+  background-color: #181818;
+  padding: 33px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.headerLogin {
+  color: white;
+  font-family: AvenirBold;
+}
+
+.headerLogin > h1 {
+  margin-bottom: 29px;
+}
+
+.headerRegister > h1 {
+  margin-bottom: 29px;
+  margin-top: 16px;
+}
+
+.headerRegister {
+  color: white;
+  font-family: AvenirBold;
+}
+
+.formLogin input {
+  width: 100%;
+  font-family: AvenirBold;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  color: white;
+  padding: 0 10px;
+}
+
+.formRegister input {
+  width: 100%;
+  font-family: AvenirBold;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  color: white;
+  padding: 0 10px;
+  padding-top: 5px;
+}
+
+.textLogin {
+  margin-bottom: 20px;
+}
+
+.emailLogin {
+  margin-bottom: 20px;
+}
+
+.passLogin {
+  margin-bottom: 58px;
+}
+
+.ctrLogin {
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.btnLogin {
+  font-family: AvenirBold;
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  background-color: #f74d4d;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.menuLogin {
+  display: flex;
+  align-items: center;
+  font-family: AvenirBold;
+}
+
+.menuLeft > button {
+  border-style: none;
+  color: white;
+  background-color: #f74d4d;
+  height: 40px;
+  width: 135px;
+  border-radius: 5px;
+  margin-right: 45px;
+}
+
+.menuRight > button {
+  border-style: none;
+  background-color: black;
+  color: white;
+}
+
+.eye {
+  position: absolute;
+  padding: 11px;
+  margin-left: -35px;
+  color: white;
+  cursor: pointer;
+}
+/* container Navbar Store */
+
+.navbarStore {
+  align-items: center;
+  padding: 0 50px !important;
+  height: 110px;
+}
+
+.nav-left > img {
+  width: 70px;
+  height: 68.22px;
+}
+
+.nav-left {
+  flex: 1;
+}
+
+.nav-right {
+  flex: 1;
+  padding: 0;
+  text-align: end;
+  margin: 0;
+}
+
+.nav-right > ul {
+  text-decoration: none;
+}
+
+.nav-right li {
+  display: inline;
+  text-decoration: none;
+  margin-left: 23px;
+  font-size: 18px;
+  font-family: Avenir;
+}
+
+.nav-right > li > link {
+  text-decoration: none;
+}
+
+.right-login {
+  text-decoration: none;
+  align-self: center;
+}
+
+/* countainer hompage */
+
+.pageProduct {
+  margin-top: 30px;
+  padding: 0 85px;
+  color: #f74d4d;
+}
+
+.pageProduct > h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.homepagePageContainer {
+  display: flex;
+  padding: 0 50px !important;
+}
+
+.homepagePageContainer > img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.homepageCardContainer {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  padding: 0 35px;
+}
+
+/* container detail */
+
+.detailProductPageContainer {
+  display: flex;
+  padding: 5% 10%;
+}
+
+.rightcontainer {
+  justify-content: center;
+  align-items: center;
+}
+
+.stock-price {
+  margin-bottom: 40px;
+}
+
+/* .edit-category {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-category input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container-editcategory {
+  width: 100%;
+  box-sizing: border-box;
+} */
+
+.custom-file-input::-webkit-file-upload-button {
+  display: none;
+}
+.custom-file-input {
+  color: red;
+}
+.custom-file-input::before {
+  content: "Upload Image";
+  margin-right: 15px;
+  display: inline-block;
+  background: #f74d4d;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  /* outline: none;
+  white-space: nowrap; */
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-right {
+    display: none;
+  }
+}
