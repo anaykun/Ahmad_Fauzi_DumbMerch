@@ -285,6 +285,16 @@ body {
   cursor: pointer;
 }
 
+/* tale */
+.table-des {
+  width: 150px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  padding: 0% !important;
+}
+
 @media only screen and (max-width: 500px) {
   .detail-card {
     flex-wrap: wrap;

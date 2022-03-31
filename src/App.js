@@ -8,6 +8,8 @@ import ProfilStore from "./pages/ProfilStore";
 import DetailProduct from "./pages/DetailProduct";
 import CategoryStore from "./pages/CategoryStore";
 import EditCategory from "./pages/EditCategory";
+import ProductStore from "./pages/ProductStore";
+import EditProduct from "./pages/EditProduct";
 
 export default class App extends Component {
   render() {
@@ -21,6 +23,8 @@ export default class App extends Component {
         <Route exact path="/detail" element={<DetailProduct />} />
         <Route exact path="/category" element={<CategoryStore />} />
         <Route exact path="/edit-category" element={<EditCategory />} />
+        <Route exact path="/product" element={<ProductStore />} />
+        <Route exact path="/edit-product" element={<EditProduct />} />
       </Routes>
     );
   }
