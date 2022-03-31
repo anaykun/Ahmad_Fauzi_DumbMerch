@@ -40,13 +40,12 @@ function DetailProduct() {
                 baterai). mendukung sistem operasi Windows 7,8, 10 keatas, Mac
                 OS X 10.8 atau yang lebih baru dan sistem operasi Chrome OS
               </p>
-            </div>
-
-            <div className="text-end mb-4">
-              <h3 className="text-danger">Rp. 300.000</h3>
-            </div>
-            <div className="w-100">
-              <button className="btn btn-danger w-100">Buy</button>
+              <div className="text-end mb-4">
+                <h3 className="text-danger">Rp. 300.000</h3>
+              </div>
+              <div className="w-100">
+                <button className="btn btn-danger w-100">Buy</button>
+              </div>
             </div>
           </div>
         </div>

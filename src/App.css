@@ -266,21 +266,6 @@ body {
   margin-bottom: 40px;
 }
 
-/* .edit-category {
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.edit-category input {
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.container-editcategory {
-  width: 100%;
-  box-sizing: border-box;
-} */
-
 .custom-file-input::-webkit-file-upload-button {
   display: none;
 }
@@ -306,7 +291,7 @@ body {
     width: 100%;
   }
   .image-detail > img {
-    width: 200px;
+    width: 100% !important;
   }
 
   .container-profil {
@@ -340,5 +325,9 @@ body {
 
   .container-none {
     display: none !important;
+  }
+
+  .detail-detail {
+    margin: 0 !important;
   }
 }
