@@ -4,6 +4,7 @@ import { Icon } from "react-icons-kit";
 import { eyeOff } from "react-icons-kit/feather/eyeOff";
 import { eye } from "react-icons-kit/feather/eye";
 import { useState } from "react";
+import { NavStore } from "./NavStore";
 
 export default function Login() {
   const [type, setType] = useState("password");
@@ -29,6 +30,7 @@ export default function Login() {
   };
   return (
     <div>
+      <NavStore />
       <div className="form-login d-flex justify-content-center">
         <div className="">
           <div className="img-login">
