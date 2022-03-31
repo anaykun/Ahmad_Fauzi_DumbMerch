@@ -21,7 +21,7 @@ export const NavStore = () => {
             <Nav.Link as={Link} to="/register" className="text-light">
               Complain
             </Nav.Link>
-            <Nav.Link as={Link} to="/register" className="text-light">
+            <Nav.Link as={Link} to="/profil" className="text-light">
               Profil
             </Nav.Link>
             <Nav.Link as={Link} to="/register" className="text-light">

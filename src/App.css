@@ -308,4 +308,37 @@ body {
   .image-detail > img {
     width: 200px;
   }
+
+  .container-profil {
+    flex-wrap: wrap !important;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .profil-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .profil-image-p {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .container-p {
+    width: 100px !important;
+    height: 50px !important;
+  }
+  .container-image-profil {
+    justify-content: flex-start;
+  }
+
+  .container-trans {
+    margin-bottom: 0px !important;
+  }
+
+  .container-none {
+    display: none !important;
+  }
 }
