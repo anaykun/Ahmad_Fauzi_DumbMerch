@@ -64,18 +64,18 @@ export default function HomePage() {
     navigate("/detail");
   };
   return (
-    <div>
+    <div className="container-fluid m-0 p-0">
       <div>
         <NavStore />
       </div>
       <div className="">
-        <div className="p-5 mx-5">
-          <div className="text-light mb-5">
+        <div className="d-flex flex-column justify-content-center px-5 position-sticky">
+          <div className="text-light my-4">
             <h1 className="">Product</h1>
           </div>
-          <div className="">
+          <div className="my-2">
             <div className="">
-              <div className="row p-0">
+              <div className="row">
                 {data.map((product) => (
                   <div
                     key={product.id}

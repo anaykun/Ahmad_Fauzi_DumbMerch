@@ -301,7 +301,11 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-  .nav-right {
-    display: none;
+  .detail-card {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .image-detail > img {
+    width: 200px;
   }
 }
